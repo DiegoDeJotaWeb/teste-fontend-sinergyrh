@@ -13,13 +13,13 @@
 }
 
 .title {
-    
+
     font-family: 'Poppins', sans-serif;
-font-style: normal;
-font-weight: 800;
-font-size: 80px;
-line-height: 120px;
-color: #FFFFFF;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 120px;
+    color: #FFFFFF;
 }
 
 
@@ -185,27 +185,27 @@ button {
     color: #FFFFFF;
 }
 
-.sentMessage{
+.sentMessage {
     width: 52%;
-position: fixed;
-top: 8px;
-right: 8px;
-background: #DFDFDF;
-border-radius: 4px;
+    position: fixed;
+    top: 8px;
+    right: 8px;
+    background: #DFDFDF;
+    border-radius: 4px;
 }
 
-#sentMessage{
-    opacity:0 ;
+#sentMessage {
+    opacity: 0;
 }
 
 .sentMessage p {
     font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 76px;
-color: #3EA90B;
-text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 76px;
+    color: #3EA90B;
+    text-align: center;
 }
 
 @media only screen and (max-width: 768px) {
@@ -252,6 +252,21 @@ text-align: center;
         margin: 0 auto;
     }
 
+    .sentMessage {
+        width: 70%;
+    }
+
+
+
+    .sentMessage p {
+        font-size: 15px;
+
+    }
+
+    header #logo {
+        width: 40%;
+    }
+
 }
 
 @media only screen and (max-width: 540px) {
@@ -265,4 +280,22 @@ text-align: center;
     .section-3 img {
         width: 100%;
     }
+
+    .sentMessage {
+        width: 98%;
+        top: 3px;
+        left: 1%;
+        right: 1%;
+        
+    }
+
+
+
+
+    .sentMessage p {
+        font-size: 15px;
+
+    }
+
+   
 }
