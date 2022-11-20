@@ -67,12 +67,9 @@ header #logo {
 
 }
 
-
-
 .col div.bg1,
 .col div.bg2 {
     padding: 72px 0;
-
 }
 
 .section-1 {
@@ -240,7 +237,6 @@ button {
         padding: 50px 25px;
     }
 
-
     .img-section-2 img {
         width: 70%;
         position: absolute;
@@ -255,8 +251,6 @@ button {
     .sentMessage {
         width: 70%;
     }
-
-
 
     .sentMessage p {
         font-size: 15px;
@@ -278,10 +272,11 @@ button {
         line-height: 45px;
     }
     
-  
-    
     .form-item .checkbox {
         margin-bottom: 15px;
+    }
+    .form-item .checkbox label {
+        line-height: 3px;
     }
 
 }
@@ -311,15 +306,10 @@ button {
         top: 3px;
         left: 1%;
         right: 1%;
-        
     }
-
-
-
 
     .sentMessage p {
         font-size: 15px;
-
     }
 
    
