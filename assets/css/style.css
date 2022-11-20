@@ -282,12 +282,31 @@ button {
 }
 
 @media only screen and (max-width: 540px) {
+    .title{
+        font-size: 30px;
+        line-height: 45px;
+        padding-bottom: 30px;
+    }
+    p{
+        font-size: 25px;
+line-height: 38px;
+    }
 
+    .col .box {
+        padding: 90px 25px;
+    }
+
+    .col .box p{
+
+
+    font-size: 30px;
+line-height: 45px;
+    }
     .section-1 {
         padding: 70px 0;
     }
     .section-2 {
-        padding: 160px 0;
+        padding: 90px 0 160px 0;
         background-image: none;
         padding-bottom: 380px;
         position: relative;
@@ -299,6 +318,10 @@ button {
 
     .form-item {
         width: 100%;
+    }
+
+    label{
+        font-size: 20px;
     }
 
     .sentMessage {
