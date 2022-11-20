@@ -290,16 +290,19 @@ button {
 
     .section-1 {
         padding: 70px 0;
-        background-image: none;
     }
     .section-2 {
-        /* padding: 160px 0;
-        background-image: none; */
+        padding: 160px 0;
+        background-image: none;
         padding-bottom: 380px;
         position: relative;
     }
 
     .section-3 img {
+        width: 100%;
+    }
+
+    .form-item {
         width: 100%;
     }
 
