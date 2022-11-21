@@ -120,6 +120,23 @@ header #logo {
     background-color: #D0B7DE;
 }
 
+#btn-plus,
+#btn-minus {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#qtd {
+    width: 70px;
+    height: 50px;
+    margin: 0 15px;
+    font-size: 30px;
+    text-align: center;
+}
+
 form {
     margin: 0 auto;
 }
@@ -266,15 +283,16 @@ button {
         margin: 0 auto;
         margin-bottom: 20px;
     }
-    
+
     .form-item label {
         margin-top: 15px;
         line-height: 45px;
     }
-    
+
     .form-item .checkbox {
         margin-bottom: 15px;
     }
+
     .form-item .checkbox label {
         line-height: 3px;
     }
@@ -282,29 +300,32 @@ button {
 }
 
 @media only screen and (max-width: 540px) {
-    .title{
+    .title {
         font-size: 30px;
         line-height: 45px;
         padding-bottom: 30px;
     }
-    p{
+
+    p {
         font-size: 25px;
-line-height: 38px;
+        line-height: 38px;
     }
 
     .col .box {
         padding: 90px 25px;
     }
 
-    .col .box p{
+    .col .box p {
 
 
-    font-size: 30px;
-line-height: 45px;
+        font-size: 30px;
+        line-height: 45px;
     }
+
     .section-1 {
         padding: 70px 0;
     }
+
     .section-2 {
         padding: 90px 0 160px 0;
         background-image: none;
@@ -320,7 +341,7 @@ line-height: 45px;
         width: 100%;
     }
 
-    label{
+    label {
         font-size: 20px;
     }
 
@@ -335,5 +356,5 @@ line-height: 45px;
         font-size: 15px;
     }
 
-   
+
 }
